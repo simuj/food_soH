@@ -1,8 +1,8 @@
-name: Update Menuplan
+name: Update Menuplan Test
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
